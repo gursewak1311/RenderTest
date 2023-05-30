@@ -9,7 +9,7 @@ var router = express.Router();
 // relative to app.use() > /
 router.get('/', function(req, res, next) {
   //view name is relative to the /views folder
-  res.render('index', { title: 'Project Tracker' });
+  res.render('index', { title: 'Project Tracker On Render' });
 });
 
 //Option 1) Extend this router to handle another paths
